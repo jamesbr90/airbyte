@@ -5,5 +5,4 @@ services:
     repo: https://github.com/airbytehq/airbyte.git
     plan: standard
     rootDir: airbyte
-    dockerCommand: docker-compose up
     healthCheckPath: /
