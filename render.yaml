@@ -1,6 +1,6 @@
 services:
-  - type: airbyte
-    name: webdis
+  - type: web
+    name: airbyte
     env: docker
     repo: https://github.com/airbytehq/airbyte.git
     plan: standard
