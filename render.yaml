@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: webdis
+    env: docker
+    repo: https://github.com/airbytehq/airbyte.git
+    plan: standard
+    rootDir: airbyte
+    dockerCommand: ./run-ab-platform.sh
+    healthCheckPath: /
